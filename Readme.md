@@ -29,4 +29,9 @@ You will need to create a node project and add the dependencies to your node pro
 Further you will need to create and add the HTTPS certificate to the service, for this it is advisable to read up on the HTTPS resource blog post 
 by Minko Gechev here - http://blog.mgechev.com/2014/02/19/create-https-tls-ssl-application-with-express-nodejs/ 
 
+Note *** your request body should contain the following fields.
+
+Token: From Firebase session
+uid: From Firebase session
+
 Happy Coding :)
